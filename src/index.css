@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+  
+  body {
+    margin: 0;
+    font-family: "Inter", serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  input{
+    font-family: "Inter", serif;
+  }
+
+  @font-face {
+    font-family: 'SatoshiLight';
+    src: url('/src/assets/fonts/Satoshi-Light.otf') format('opentype');
+  }
+  
